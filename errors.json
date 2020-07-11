@@ -1,0 +1,906 @@
+[
+  {
+    "text": "I changed my mind. I want to accept it",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.39524999340063566
+    }
+  },
+  {
+    "text": "oki doki",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4288433118566596
+    }
+  },
+  {
+    "text": "amayzing",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.7222002360286426
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4636342673289511
+    }
+  },
+  {
+    "text": "hm, i'd like that",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.549038666136825
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.42956791237318837
+    }
+  },
+  {
+    "text": "see ya",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.32200839891983496
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.39117540237547127
+    }
+  },
+  {
+    "text": "nope",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4365849987958355
+    }
+  },
+  {
+    "text": "no thanks",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.4408323338559096
+    }
+  },
+  {
+    "text": "never mind",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5848301295876983
+    }
+  },
+  {
+    "text": "nevermind",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.40590419883244533
+    }
+  },
+  {
+    "text": "I don't want to give it to you",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.42937107108956607
+    }
+  },
+  {
+    "text": "I'm not going to give it to you",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2948713043455664
+    }
+  },
+  {
+    "text": "i don't want to",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.447541376202243
+    }
+  },
+  {
+    "text": "greetings",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.268818907354959
+    }
+  },
+  {
+    "text": "hiihihi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.7222002360286426
+    }
+  },
+  {
+    "text": "heyo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.42285183415442246
+    }
+  },
+  {
+    "text": "heyho",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5288205689962143
+    }
+  },
+  {
+    "text": "neither",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8483542650115736
+    }
+  },
+  {
+    "text": "restaurant",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.9964542462972783
+    }
+  },
+  {
+    "text": "you already have that",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43542021769033823
+    }
+  },
+  {
+    "text": "this is a really frustrating experience",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3349560203776725
+    }
+  },
+  {
+    "text": "give me food",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.5551600338413728
+    }
+  },
+  {
+    "text": "shitmuncher",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.7222002360286426
+    }
+  },
+  {
+    "text": "lol",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.46090339165672783
+    }
+  },
+  {
+    "text": "Do I have to accept?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.40728809863031307
+    }
+  },
+  {
+    "text": "Is Rasa really smart?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4126509297806585
+    }
+  },
+  {
+    "text": "kannst du auch deutsch?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2727921464185336
+    }
+  },
+  {
+    "text": "thanks a bunch for everything",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.28103971340094974
+    }
+  },
+  {
+    "text": "thanks for forum link, I'll check it out",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.30493569197831
+    }
+  },
+  {
+    "text": "I want to eat at a place between 300 and 700",
+    "intent": "ask_budget",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3866607208314391
+    }
+  },
+  {
+    "text": "can u send me an email?",
+    "intent": "ask_email",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.283915223652234
+    }
+  },
+  {
+    "text": "share some more restaurant names with me",
+    "intent": "ask_email",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.33390412003927483
+    }
+  },
+  {
+    "text": "I need a new restaurant",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5541799137627053
+    }
+  },
+  {
+    "text": "where should i eat?",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5714178749461274
+    }
+  },
+  {
+    "text": "ok, I behave now",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.48373463575967707
+    }
+  },
+  {
+    "text": "yop",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7713009130385049
+    }
+  },
+  {
+    "text": "coolio",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.718988465012903
+    }
+  },
+  {
+    "text": "ja",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.33719820237011255
+    }
+  },
+  {
+    "text": "how nice!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3642339794405293
+    }
+  },
+  {
+    "text": "i will take that",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4039526934470336
+    }
+  },
+  {
+    "text": "toodle-oo",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.31878828934451786
+    }
+  },
+  {
+    "text": "bye for now",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.23075585739824941
+    }
+  },
+  {
+    "text": "bye was nice talking to you",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.44994057413786465
+    }
+  },
+  {
+    "text": "no and no again",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.41954364734347993
+    }
+  },
+  {
+    "text": "decline",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6407861119628019
+    }
+  },
+  {
+    "text": "i decline",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7579306514651617
+    }
+  },
+  {
+    "text": "I'm not giving you my email address",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5918972524450742
+    }
+  },
+  {
+    "text": "no!!!!",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.40558100933776897
+    }
+  },
+  {
+    "text": "i guess it means - no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.33532248032776074
+    }
+  },
+  {
+    "text": "neither of these",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.49500159303929026
+    }
+  },
+  {
+    "text": "neither will work",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5107256121367519
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.2733602079428396
+    }
+  },
+  {
+    "text": "I said, helllllloooooO!!!!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.41663587932699425
+    }
+  },
+  {
+    "text": "hey, let's talk",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6054199503630218
+    }
+  },
+  {
+    "text": "hey let's talk",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5637010929131236
+    }
+  },
+  {
+    "text": "show me a picture of a chicken",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.42434517197341354
+    }
+  },
+  {
+    "text": "restaurants",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.9739434005796912
+    }
+  },
+  {
+    "text": "can i be shown a gluten free restaurant",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.5032393528908968
+    }
+  },
+  {
+    "text": "sorry, i cannot rephrase",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3329441929344813
+    }
+  },
+  {
+    "text": "Thank you so much",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.33653167593095273
+    }
+  },
+  {
+    "text": "ok thanks!",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.48367082118951993
+    }
+  },
+  {
+    "text": "I am fine with an expensive place",
+    "intent": "ask_budget",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3591457233841871
+    }
+  },
+  {
+    "text": "Cyberabad",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.49922640479670916
+    }
+  },
+  {
+    "text": "calcuta",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.49922640479670916
+    }
+  },
+  {
+    "text": "Dilli",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7576535355047306
+    }
+  },
+  {
+    "text": "Rajahmundry",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.49922640479670916
+    }
+  },
+  {
+    "text": "Surat",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.36527030010370587
+    }
+  },
+  {
+    "text": "Rourkela",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.4514437014712823
+    }
+  },
+  {
+    "text": "american",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6532289682192074
+    }
+  },
+  {
+    "text": "i want a french restaurant",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5381211391843206
+    }
+  },
+  {
+    "text": "Get me some food quickly",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6057494220263308
+    }
+  },
+  {
+    "text": "I want to eat",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.49246097687360524
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2740094296248585
+    }
+  },
+  {
+    "text": "go for it",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2493629820780388
+    }
+  },
+  {
+    "text": "yep, will do thank you",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3201554728040328
+    }
+  },
+  {
+    "text": "jo",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9573024144203695
+    }
+  },
+  {
+    "text": "definitely yes without a doubt",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5256432565803073
+    }
+  },
+  {
+    "text": "yas",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6398811481974241
+    }
+  },
+  {
+    "text": "sure thing",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4432720834337542
+    }
+  },
+  {
+    "text": "Sweet",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.268568801867561
+    }
+  },
+  {
+    "text": "great",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6464589608384244
+    }
+  },
+  {
+    "text": "that sounds just right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.49558568861320723
+    }
+  },
+  {
+    "text": "catch you later",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.358850282494799
+    }
+  },
+  {
+    "text": "k byyye #slay",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2623075181589964
+    }
+  },
+  {
+    "text": "tlak to you later",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2359062929184576
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.42589286781685864
+    }
+  },
+  {
+    "text": "tschüssikowski",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.6470970648975146
+    }
+  },
+  {
+    "text": "No, not really.",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3394720832498364
+    }
+  },
+  {
+    "text": "nah thanks",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.503595112439935
+    }
+  },
+  {
+    "text": "i don't like that option",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5545510420931535
+    }
+  },
+  {
+    "text": "suggest some other option",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.40728627263804557
+    }
+  },
+  {
+    "text": "is this the best you can do",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6070417798748999
+    }
+  },
+  {
+    "text": "hallo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4455900779426456
+    }
+  },
+  {
+    "text": "Hallo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4455900779426456
+    }
+  },
+  {
+    "text": "Hellllooooooo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.6470970648975146
+    }
+  },
+  {
+    "text": "Whats up my bot",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.41349502658346404
+    }
+  },
+  {
+    "text": "jojojo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5469516485651095
+    }
+  },
+  {
+    "text": "what up",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3913424485423462
+    }
+  },
+  {
+    "text": "jop",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6948880400825534
+    }
+  },
+  {
+    "text": "i am hungry",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.41470969664053153
+    }
+  },
+  {
+    "text": "i don't care!!!!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.48145739843114616
+    }
+  },
+  {
+    "text": "stop it, i do not care!!!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.37966665195104293
+    }
+  },
+  {
+    "text": "that link doesn't work!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.49267030951575386
+    }
+  },
+  {
+    "text": "no stop",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8594773044603637
+    }
+  },
+  {
+    "text": "i want food",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.5054881901960719
+    }
+  },
+  {
+    "text": "i want to eat",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.6199374802522594
+    }
+  },
+  {
+    "text": "go back",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.3332949953683769
+    }
+  },
+  {
+    "text": "common, just try",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.41012744634512194
+    }
+  },
+  {
+    "text": "I am looking for a dinner place at less than 300",
+    "intent": "ask_budget",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.3693484075938588
+    }
+  },
+  {
+    "text": "email1_34-ret@host-name.123.com",
+    "intent": "ask_email",
+    "intent_prediction": {
+      "name": "ask_restaurant",
+      "confidence": 0.6075105075002665
+    }
+  },
+  {
+    "text": "how can you help me find a french restaurant?",
+    "intent": "ask_restaurant",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5043774719763693
+    }
+  }
+]

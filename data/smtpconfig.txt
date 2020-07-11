@@ -1,0 +1,5 @@
+smtpserver_host=smtp.gmail.com
+smtpserver_port=465
+username=chatupgrad@gmail.com
+password=blahblah
+from_email=chatupgrad@gmail.com
